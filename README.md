@@ -1,12 +1,2 @@
-# cse3310_sp2020
-Code samples for CSE3310 Spring 2020
-
-You must have the boost development libs installed.
-
-yum install boost-devel
-
-or
-
-sudo apt install libboost-dev
-
-
+# cse3310 TEAM 002
+Source files, makefiles, GUIs, and chat_ files are here to make an awesome poker game!
