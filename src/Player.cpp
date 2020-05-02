@@ -65,17 +65,17 @@ void Player::set_card_rank ()
 
 void Player::set_order(int order)
 {
-    playerorderrank=order;
+    //playerorderrank=order;
 }
 
 int Player::get_cards_rank()
 {
-
+   return 0;
 }
 
 int Player::get_order()
 {
-
+   return 0;
 }
 
 

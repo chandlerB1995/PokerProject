@@ -11,7 +11,7 @@
 
 #include <iostream>
 #include <string>
-#include "Player_cards.h"
+//#include "Player_cards.h"
 #include "Dealer.h"
 using namespace std;
 
@@ -40,7 +40,7 @@ private:
     bool IsFullHouse();
     bool IsFourOfKind();
     bool IsStraightFlush();
-    bool IsRoyalFlush()
+    bool IsRoyalFlush();
     
 public:
     Player();
