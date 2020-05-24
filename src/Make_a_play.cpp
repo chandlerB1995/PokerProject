@@ -24,7 +24,7 @@ void Make_a_play::set_playerlimit(int limit)
 //Player pays the minimum amount.
 void Make_a_play::call(Player p1)
 {
-    p1.totalcashinhand -= table_minimum;
+    //p1.totalcashinhand -= table_minimum;
 }
 
 //Player makes the first bet of the round, setting the minimum betting amount.
@@ -34,7 +34,7 @@ void Make_a_play::bet(Player p1, int bet)
         std::cout << "Sorry, that's over the limit for this round." << std::endl;
     else
     {
-        p1.totalcashinhand -= bet;
+        //p1.totalcashinhand -= bet;
         table_minimum = bet;
     }
 }
@@ -50,7 +50,7 @@ void Make_a_play::raise(Player p1, int bet)
         std::cout << "Sorry, that's less than the minimum amount." << std::endl;
     else
     {
-        p1.totalcashinhand -= bet;
+        //p1.totalcashinhand -= bet;
         table_minimum = bet;
     }
 }
@@ -64,6 +64,6 @@ void Make_a_play::update_totalpot( int amount)
 //Transfers all chips from the pot to the winning player's wins.
 void Make_a_play::playerPot(Player p1)
 {
-    p1.wins = pot;
+    //p1.wins = pot;
     pot = 0;
 }
